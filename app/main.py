@@ -40,5 +40,5 @@ async def greet(ctx: discord.ApplicationContext,
     await currentUser.send(greeting)
     await ctx.respond(greeting, ephemeral=True)
 
-bot.run("MTIxMzgwMzY3NDQzNTA2NzkwNA.GFRRpY.NoV9IvIFXThjhzncsEI7ZaxZSi9t_2ttE5GBmc")
+bot.run("")
 
