@@ -42,5 +42,6 @@ async def greet(ctx: discord.ApplicationContext,
     await currentUser.send(greeting)
     await ctx.respond(greeting, ephemeral=True)
 
+
 bot.run(os.getenv("TMS_TOKEN"))
 
